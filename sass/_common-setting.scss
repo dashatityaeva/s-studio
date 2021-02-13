@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Geometria Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Geometria-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Geometria-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Roboto-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto Medium';
+    font-style: normal;
+    font-weight: medium;
+    src: url('../fonts/Roboto-Medium.woff') format('woff');
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+// переменные
+$main-color-text: #FFFFFF;
+$secondary-color-text: #FC2070;
+
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Geometria Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    color: $main-color-text;
+
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 120px;
+    position: relative;
+    border: 1px solid red;
+}
+p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+// media
+$tablet-width: 768px;
+$desktop-width: 1440px;
+$mobile-width: 320px;
